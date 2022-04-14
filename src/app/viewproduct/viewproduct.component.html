@@ -1,0 +1,71 @@
+
+<div>
+  <table class="table mt-5">
+    <thead>
+        <tr >
+            <th class="heading" scope="col">S.NO.</th>
+            <th class="heading" scope="col">NAME</th>
+            <th class="heading" scope="col">Price</th>
+            <th class="heading" scope="col">Description</th>
+            <th class="heading" scope="col">IMAGE</th>
+
+
+
+            <th class="heading" scope="col">EDIT</th>
+
+            <th class="heading" scope="col">DELETE</th>
+        </tr>
+    </thead>
+    <tbody class="justify-content-center">
+        <tr>
+            <th>1.</th>
+                    <td>Choclate cake</td>
+                    <td>₹600</td>
+                    <td>it is chocolate cake</td>
+            <img src="../../assets/images/istockphoto-1294578109-170667a.jpg" width="80px" height="80px">
+            <td>
+              <div class="dropdown" >
+                <a>
+                  <button  class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   Update
+                  </button></a>
+                </div>
+            </td>
+            <td> <button type="button"  class="btn btnn">DELETE</button>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Category</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="product name..">
+      </div>
+      <div class="modal-body">
+        <label for="price">Price</label>
+        <input type="text" id="price" name="price" placeholder="product price..">
+      </div>
+      <div class="modal-body">
+        <label for="desc">Description</label>
+        <input type="text" id="desc" name="desc" placeholder="productdescription..">
+      </div>
+      <div class="modal-body">
+        <label for="image">Image</label>
+        <input type="file" id="image" name="image" placeholder="product image..">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="b btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="b btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

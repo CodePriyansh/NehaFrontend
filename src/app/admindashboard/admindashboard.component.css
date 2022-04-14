@@ -1,0 +1,13 @@
+
+
+.card{
+  background:  #ff9999;
+  -webkit-box-shadow: 0 0 10px rgb(2, 1, 1);
+         box-shadow: 0 0 10px rgb(36, 27, 27);
+     }
+     :root {
+      --main-bg-color: #1b0806;
+      --main-text-color: rgb(240, 126, 126);
+      --second-text-color: #2e0505;
+      --second-bg-color: #f3f3f3;
+    }
